@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show tasks project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+    </style>
+
+    <div class="d-flex flex-column col-2">
+      <button onclick="showTasks()" class="btn btn-dark m-3">Show Tasks</button>
+      <button onclick="newTask()" class="btn btn-dark m-3">Add New Task</button>
+      <button onclick="replaceTasks()" class="btn btn-dark m-3">Replace Task</button>
+      <button onclick="deleteTask()" class="btn btn-dark m-3">Delete Task</button>
+      <button onclick="toogleTaskStatus()" class="btn btn-dark m-3">Toogle Task Status</button>
+    </div>
+
+    <script src="js/objectTask.js"></script>
+  </body>
+</html>
